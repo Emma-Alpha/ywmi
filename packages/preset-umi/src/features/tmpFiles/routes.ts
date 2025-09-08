@@ -1,9 +1,15 @@
 import {
+  isMonorepo,
+  lodash,
+  resolve,
+  tryPaths,
+  winPath,
+} from '@4399ywkf/utils';
+import {
   addParentRoute,
   getConfigRoutes,
   getConventionRoutes,
 } from '@umijs/core';
-import { isMonorepo, lodash, resolve, tryPaths, winPath } from '@umijs/utils';
 import { existsSync, readFileSync } from 'fs';
 import { isAbsolute, join } from 'path';
 import { IApi } from '../../types';
@@ -327,7 +333,7 @@ export function componentToChunkName(
         // ex. node_modules/.pnpm/dumi@2.1.19_xxxx/node_modules/dumi/dist/client/pages/404
         .replace(/.+(node_modules(\/|\\))/, '$1')
         // 丢弃 tnpm 目录下的软链结构避免 chunkName 过长
-        // ex. node_modules/_@umijs_utils@4.0.83@@umijs/utils/dist/index.js
+        // ex. node_modules/_@umijs_utils@4.0.83@@4399ywkf/utils/dist/index.js
         .replace(/(\/|\\)_@?([^@]+@){2}/, '$1')
         .replace(/^.(\/|\\)/, '')
         .replace(/(\/|\\)/g, '__')

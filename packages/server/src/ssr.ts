@@ -1,6 +1,6 @@
 /// <reference lib="webworker" />
+import semver from '@4399ywkf/utils/compiled/semver';
 import type { RequestHandler } from '@umijs/bundler-utils/compiled/express';
-import semver from '@umijs/utils/compiled/semver';
 import React, { ReactElement } from 'react';
 import * as ReactDomServer from 'react-dom/server';
 import { matchRoutes } from 'react-router-dom';

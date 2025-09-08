@@ -1,10 +1,10 @@
-import type { Stats } from '@umijs/bundler-webpack/compiled/webpack';
 import {
   chalk,
   filesize,
   gzipSize as _gzipSize,
   stripAnsi,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
+import type { Stats } from '@umijs/bundler-webpack/compiled/webpack';
 import fs from 'fs';
 import path from 'path';
 

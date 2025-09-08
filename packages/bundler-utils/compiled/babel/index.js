@@ -28007,7 +28007,7 @@ module.exports = {
 /***/ (function(module) {
 
 "use strict";
-module.exports = require("@umijs/utils/compiled/debug");
+module.exports = require("@4399ywkf/utils/compiled/debug");
 
 /***/ }),
 

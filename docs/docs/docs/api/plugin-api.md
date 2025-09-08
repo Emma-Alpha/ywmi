@@ -218,7 +218,7 @@ api.registerPlugins([
 
 ```ts
 import { GeneratorType } from '@umijs/core';
-import { logger } from '@umijs/utils';
+import { logger } from '@4399ywkf/utils';
 import { join } from 'path';
 import { writeFileSync } from 'fs';
 

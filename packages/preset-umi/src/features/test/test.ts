@@ -1,4 +1,4 @@
-﻿import { winPath } from '@umijs/utils';
+﻿import { winPath } from '@4399ywkf/utils';
 import { existsSync } from 'fs';
 import { dirname, join } from 'path';
 import { expandJSPaths } from '../../commands/dev/watch';

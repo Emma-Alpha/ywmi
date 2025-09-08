@@ -1,6 +1,6 @@
+import { chalk, logger } from '@4399ywkf/utils';
 import * as parser from '@umijs/bundler-utils/compiled/babel/parser';
 import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { chalk, logger } from '@umijs/utils';
 import assert from 'assert';
 import fs from 'fs';
 import path from 'path';

@@ -21,8 +21,8 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
-    "@umijs/bundler-utils": "workspace:*",
-    "@umijs/utils": "workspace:*"
+    "@4399ywkf/utils": "workspace:*",
+    "@umijs/bundler-utils": "workspace:*"
   },
   "devDependencies": {
     "dotenv": "16.0.0",

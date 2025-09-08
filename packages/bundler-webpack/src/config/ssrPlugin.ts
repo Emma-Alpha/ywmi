@@ -1,9 +1,9 @@
+import { fsExtra } from '@4399ywkf/utils';
 import type {
   Compilation,
   Compiler,
 } from '@umijs/bundler-webpack/compiled/webpack';
 import { sources } from '@umijs/bundler-webpack/compiled/webpack';
-import { fsExtra } from '@umijs/utils';
 import { writeFileSync } from 'fs';
 import { extname, join } from 'path';
 import Config from '../../compiled/webpack-5-chain';

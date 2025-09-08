@@ -37,6 +37,7 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
+    "@4399ywkf/utils": "workspace:*",
     "@babel/runtime": "7.23.6",
     "@umijs/bundler-utils": "workspace:*",
     "@umijs/bundler-webpack": "workspace:*",
@@ -46,7 +47,6 @@
     "@umijs/renderer-react": "workspace:*",
     "@umijs/server": "workspace:*",
     "@umijs/test": "workspace:*",
-    "@umijs/utils": "workspace:*",
     "prettier-plugin-organize-imports": "^3.2.2",
     "prettier-plugin-packagejson": "2.4.3"
   },

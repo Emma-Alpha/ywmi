@@ -1,5 +1,5 @@
+import { fsExtra, logger } from '@4399ywkf/utils';
 import { GeneratorType } from '@umijs/core';
-import { fsExtra, logger } from '@umijs/utils';
 import { join } from 'path';
 import { IApi } from '../../types';
 import { GeneratorHelper, getUmiJsPlugin } from './utils';

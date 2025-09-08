@@ -1,5 +1,5 @@
+import { logger, winPath } from '@4399ywkf/utils';
 import type { ImportSpecifier } from '@umijs/bundler-utils/compiled/es-module-lexer';
-import { logger, winPath } from '@umijs/utils';
 import { join } from 'path';
 import { getAliasedPathWithLoopDetect } from '../../babelPlugins/awaitImport/getAliasedPath';
 import parseImport from '../importParser';

@@ -1,4 +1,4 @@
-import { chalk } from '@umijs/utils';
+import { chalk } from '@4399ywkf/utils';
 import type { IApi } from '../../types';
 
 // https://babeljs.io/blog/2023/05/26/7.22.0#renamed-packages

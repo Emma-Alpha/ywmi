@@ -21,10 +21,10 @@
     "dev": "umi-scripts father dev"
   },
   "dependencies": {
+    "@4399ywkf/utils": "workspace:*",
     "@babel/plugin-transform-modules-commonjs": "7.23.3",
     "@jest/types": "27.5.1",
     "@umijs/bundler-utils": "workspace:*",
-    "@umijs/utils": "workspace:*",
     "babel-jest": "^29.7.0",
     "esbuild": "0.21.4",
     "identity-obj-proxy": "3.0.0",

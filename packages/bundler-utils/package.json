@@ -20,7 +20,7 @@
     "dev": "umi-scripts father dev"
   },
   "dependencies": {
-    "@umijs/utils": "workspace:*",
+    "@4399ywkf/utils": "workspace:*",
     "esbuild": "0.21.4",
     "regenerate": "^1.4.2",
     "regenerate-unicode-properties": "10.1.1",
@@ -86,7 +86,7 @@
     ],
     "externals": {
       "cjs-module-lexer": "$$LOCAL",
-      "debug": "@umijs/utils/compiled/debug",
+      "debug": "@4399ywkf/utils/compiled/debug",
       "esbuild": "$$LOCAL",
       "es-module-lexer": "$$LOCAL",
       "express": "$$LOCAL",

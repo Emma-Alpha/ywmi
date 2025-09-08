@@ -1,4 +1,4 @@
-import { axios, chalk, logger } from '@umijs/utils';
+import { axios, chalk, logger } from '@4399ywkf/utils';
 // @ts-ignore
 import HttpsProxyAgent from '../compiled/https-proxy-agent';
 // @ts-ignore

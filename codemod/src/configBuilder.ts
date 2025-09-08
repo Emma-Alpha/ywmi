@@ -1,5 +1,5 @@
+import { resolve } from '@4399ywkf/utils';
 import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { resolve } from '@umijs/utils';
 import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 

@@ -1,4 +1,3 @@
-import type { RequestHandler } from '@umijs/bundler-webpack';
 import {
   address,
   chalk,
@@ -8,7 +7,8 @@ import {
   rimraf,
   semver,
   winPath,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
+import type { RequestHandler } from '@umijs/bundler-webpack';
 import { existsSync, readdirSync, readFileSync } from 'fs';
 import { basename, join } from 'path';
 import { Worker } from 'worker_threads';
@@ -34,7 +34,7 @@ const MFSU_EAGER_DEFAULT_INCLUDE = [
   'react',
   'react-error-overlay',
   'react/jsx-dev-runtime',
-  '@umijs/utils/compiled/strip-ansi',
+  '@4399ywkf/utils/compiled/strip-ansi',
 ];
 
 export default (api: IApi) => {

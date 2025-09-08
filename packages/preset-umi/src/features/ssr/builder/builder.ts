@@ -1,6 +1,6 @@
+import { aliasUtils, isMonorepo, logger } from '@4399ywkf/utils';
 import { esbuildWatchRebuildPlugin } from '@umijs/bundler-esbuild/dist/plugins/watchRebuild';
 import esbuild, { BuildOptions } from '@umijs/bundler-utils/compiled/esbuild';
-import { aliasUtils, isMonorepo, logger } from '@umijs/utils';
 import { resolve } from 'path';
 import { IApi } from '../../../types';
 import { absServerBuildPath, esbuildUmiPlugin } from '../utils';

@@ -1,9 +1,9 @@
+import { chalk, lodash, resolve } from '@4399ywkf/utils';
 import {
   autoCssModulesHandler,
   esbuildLoader,
   VIRTUAL_ENTRY_DIR,
 } from '@umijs/mfsu';
-import { chalk, lodash, resolve } from '@umijs/utils';
 import { dirname, isAbsolute } from 'path';
 import { ProvidePlugin } from '../../compiled/webpack';
 import Config from '../../compiled/webpack-5-chain';

@@ -1,5 +1,5 @@
+import { chalk, glob, lodash, logger, register } from '@4399ywkf/utils';
 import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { chalk, glob, lodash, logger, register } from '@umijs/utils';
 import assert from 'assert';
 import { join } from 'path';
 import { DEFAULT_METHOD, MOCK_FILE_GLOB, VALID_METHODS } from './constants';

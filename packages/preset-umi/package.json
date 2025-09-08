@@ -25,6 +25,7 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
+    "@4399ywkf/utils": "workspace:*",
     "@iconify/utils": "2.1.1",
     "@stagewise/toolbar": "0.6.2",
     "@svgr/core": "6.5.1",
@@ -44,7 +45,6 @@
     "@umijs/renderer-react": "workspace:*",
     "@umijs/server": "workspace:*",
     "@umijs/ui": "workspace:*",
-    "@umijs/utils": "workspace:*",
     "@umijs/zod2ts": "workspace:*",
     "babel-plugin-dynamic-import-node": "2.3.3",
     "babel-plugin-react-compiler": "0.0.0-experimental-c23de8d-20240515",
@@ -95,9 +95,9 @@
       "sirv"
     ],
     "externals": {
-      "prettier": "@umijs/utils/compiled/prettier",
-      "lodash": "@umijs/utils/compiled/lodash",
-      "glob": "@umijs/utils/compiled/glob"
+      "prettier": "@4399ywkf/utils/compiled/prettier",
+      "lodash": "@4399ywkf/utils/compiled/lodash",
+      "glob": "@4399ywkf/utils/compiled/glob"
     },
     "excludeDtsDeps": [
       "@manypkg/get-packages",

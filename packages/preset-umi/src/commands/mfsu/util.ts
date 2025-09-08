@@ -1,6 +1,6 @@
+import { chalk, fsExtra, lodash, logger, rimraf } from '@4399ywkf/utils';
 import { setup } from '@umijs/bundler-webpack';
 import webpack from '@umijs/bundler-webpack/compiled/webpack';
-import { chalk, fsExtra, lodash, logger, rimraf } from '@umijs/utils';
 import { isAbsolute, join, relative } from 'path';
 import { Worker } from 'worker_threads';
 import { LazySourceCodeCache } from '../../libs/folderCache/LazySourceCodeCache';
@@ -288,5 +288,5 @@ const MFSU_EAGER_DEFAULT_INCLUDE = [
   'react',
   'react-error-overlay',
   'react/jsx-dev-runtime',
-  '@umijs/utils/compiled/strip-ansi',
+  '@4399ywkf/utils/compiled/strip-ansi',
 ];

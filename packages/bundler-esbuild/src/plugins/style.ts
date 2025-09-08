@@ -1,10 +1,10 @@
 // ref: https://github.com/hyrious/esbuild-plugin-style/blob/main/index.ts
+import { resolve } from '@4399ywkf/utils';
 import esbuild, {
   BuildOptions,
   Charset,
   Plugin,
 } from '@umijs/bundler-utils/compiled/esbuild';
-import { resolve } from '@umijs/utils';
 import fs from 'fs';
 import path from 'path';
 import { IConfig } from '../types';

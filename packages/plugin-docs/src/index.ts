@@ -1,5 +1,5 @@
+import { winPath } from '@4399ywkf/utils';
 import { parseModuleSync } from '@umijs/bundler-utils';
-import { winPath } from '@umijs/utils';
 import fs, { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { IApi } from 'umi';

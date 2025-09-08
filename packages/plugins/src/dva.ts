@@ -1,5 +1,5 @@
+import { winPath } from '@4399ywkf/utils';
 import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { winPath } from '@umijs/utils';
 import { join, relative } from 'path';
 import { IApi, RUNTIME_TYPE_FILE_NAME } from 'umi';
 import { chalk } from 'umi/plugin-utils';

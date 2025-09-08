@@ -1,5 +1,5 @@
+import { logger } from '@4399ywkf/utils';
 import type { Plugin } from '@umijs/bundler-utils/compiled/esbuild';
-import { logger } from '@umijs/utils';
 import fs from 'fs';
 import { extractIcons } from './extract';
 

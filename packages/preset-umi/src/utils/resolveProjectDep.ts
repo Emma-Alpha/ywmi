@@ -1,4 +1,4 @@
-import { resolve } from '@umijs/utils';
+import { resolve } from '@4399ywkf/utils';
 import { dirname } from 'path';
 
 export function resolveProjectDep(opts: {

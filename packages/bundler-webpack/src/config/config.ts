@@ -1,5 +1,5 @@
+import { logger, resolve as resolveModule } from '@4399ywkf/utils';
 import CaseSensitivePaths from '@umijs/case-sensitive-paths-webpack-plugin';
-import { logger, resolve as resolveModule } from '@umijs/utils';
 import { join, resolve } from 'path';
 import webpack, { Configuration } from '../../compiled/webpack';
 import Config from '../../compiled/webpack-5-chain';
@@ -249,8 +249,8 @@ export async function getConfig(opts: IOpts): Promise<Configuration> {
     // 同时配置 managedPaths 将 tnpm 的软连接结构标记为可信，避免执行快照序列化时 OOM
     // 此处通过软链的目标文件夹名称来判断 node_modules 是否为 tnpm 的 npminstall 模式
     // 因为 rapid 模式下 package.json 中没有 __npminstall_done 的标记
-    // ex. node_modules/_@umijs_utils@4.0.83@@umijs/utils/package.json
-    if (require.resolve('@umijs/utils/package').includes('_@umijs_utils@')) {
+    // ex. node_modules/_@umijs_utils@4.0.83@@4399ywkf/utils/package.json
+    if (require.resolve('@4399ywkf/utils/package').includes('_@umijs_utils@')) {
       const nodeModulesPath =
         opts.cache.absNodeModulesPath ||
         join(opts.rootDir || opts.cwd, 'node_modules');

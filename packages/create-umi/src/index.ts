@@ -11,7 +11,7 @@ import {
   semver,
   tryPaths,
   yParser,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
 import { existsSync } from 'fs';
 import { dirname, join } from 'path';
 import { ERegistry, unpackTemplate, type UmiTemplate } from './template';

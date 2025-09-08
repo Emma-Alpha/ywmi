@@ -1,5 +1,5 @@
+import { chalk, register, tryPaths, yParser } from '@4399ywkf/utils';
 import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { chalk, register, tryPaths, yParser } from '@umijs/utils';
 import assert from 'assert';
 import { existsSync } from 'fs';
 import { basename, extname, join } from 'path';

@@ -1,8 +1,8 @@
+import { pkgUp } from '@4399ywkf/utils';
 import { isDepPath } from '@umijs/bundler-utils';
 import { init, parse } from '@umijs/bundler-utils/compiled/es-module-lexer';
 import { Loader, transformSync } from '@umijs/bundler-utils/compiled/esbuild';
 import type { Service } from '@umijs/core';
-import { pkgUp } from '@umijs/utils';
 import assert from 'assert';
 import enhancedResolve from 'enhanced-resolve';
 import { readFileSync } from 'fs';

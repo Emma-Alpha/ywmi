@@ -1,4 +1,4 @@
-import { logger, printHelp, winPath } from '@umijs/utils';
+import { logger, printHelp, winPath } from '@4399ywkf/utils';
 import type { Configuration } from 'webpack';
 import { checkMatch } from '../babelPlugins/awaitImport/checkMatch';
 import mfImport from '../babelPlugins/awaitImport/MFImport';

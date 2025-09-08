@@ -1,4 +1,5 @@
 // sort-object-keys
+import type { CheerioAPI } from '@4399ywkf/utils/compiled/cheerio';
 import type { ImportDeclaration } from '@umijs/bundler-utils/compiled/@babel/types';
 import type {
   BuildResult as ESBuildBuildResult,
@@ -19,7 +20,6 @@ import type {
 import { Env } from '@umijs/core';
 import type { Declaration } from '@umijs/es-module-parser';
 import type { getMarkup } from '@umijs/server';
-import type { CheerioAPI } from '@umijs/utils/compiled/cheerio';
 import type { InlineConfig as ViteInlineConfig } from 'vite';
 import type { getMarkupArgs } from './commands/dev/getMarkupArgs';
 import type { IOnDemandInstallDep } from './features/depsOnDemand/depsOnDemand';

@@ -1,6 +1,6 @@
+import { chalk, lodash, resolve } from '@4399ywkf/utils';
 import { Compiler } from '@umijs/bundler-webpack/compiled/webpack';
 import Config from '@umijs/bundler-webpack/compiled/webpack-5-chain';
-import { chalk, lodash, resolve } from '@umijs/utils';
 import { dirname, isAbsolute } from 'path';
 import { IConfig } from '../types';
 

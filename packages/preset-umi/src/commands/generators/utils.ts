@@ -6,7 +6,7 @@ import {
   logger,
   prompts,
   semver,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
 import {
   existsSync,
   readdirSync,

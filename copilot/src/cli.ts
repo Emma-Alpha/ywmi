@@ -1,4 +1,4 @@
-import { chalk, clackPrompts, logger, resolve, yParser } from '@umijs/utils';
+import { chalk, clackPrompts, logger, resolve, yParser } from '@4399ywkf/utils';
 import { sendMessage } from './chatgpt';
 import { printHelp } from './printHelp';
 import prompts from './prompts';

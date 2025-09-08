@@ -1,4 +1,4 @@
-import { yParser } from '@umijs/utils';
+import { yParser } from '@4399ywkf/utils';
 import { IApi } from '../types';
 
 export default (api: IApi) => {

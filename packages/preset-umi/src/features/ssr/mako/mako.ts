@@ -1,6 +1,6 @@
+import { fsExtra, logger } from '@4399ywkf/utils';
+import { forEach } from '@4399ywkf/utils/compiled/lodash';
 import { Env } from '@umijs/bundler-webpack/dist/types';
-import { fsExtra, logger } from '@umijs/utils';
-import { forEach } from '@umijs/utils/compiled/lodash';
 import { existsSync, writeFileSync } from 'fs';
 import path, { dirname, join } from 'path';
 

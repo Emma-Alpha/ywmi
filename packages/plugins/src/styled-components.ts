@@ -1,4 +1,4 @@
-import { lodash, winPath } from '@umijs/utils';
+import { lodash, winPath } from '@4399ywkf/utils';
 import { dirname } from 'path';
 import type { IStyleSheetManager } from 'styled-components';
 import { IApi } from 'umi';

@@ -23,9 +23,9 @@
     "test": "umi-scripts jest-turbo"
   },
   "dependencies": {
+    "@4399ywkf/utils": "workspace:*",
     "@umijs/bundler-esbuild": "workspace:*",
     "@umijs/bundler-utils": "workspace:*",
-    "@umijs/utils": "workspace:*",
     "enhanced-resolve": "5.9.3",
     "is-equal": "^1.6.4"
   },

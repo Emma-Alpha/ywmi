@@ -1,9 +1,9 @@
+import { lodash } from '@4399ywkf/utils';
 import { generate } from '@umijs/ast/dist/utils/generate';
 import { parse } from '@umijs/ast/dist/utils/parse';
 import * as Babel from '@umijs/bundler-utils/compiled/babel/core';
 import * as traverse from '@umijs/bundler-utils/compiled/babel/traverse';
 import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { lodash } from '@umijs/utils';
 import { getIdentifierDeclaration } from './configUpdater';
 import { ROUTE_PROPS, ROUTE_PROPS_MAP } from './constants';
 import { info, warn } from './logger';

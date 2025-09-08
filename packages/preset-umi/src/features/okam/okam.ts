@@ -1,4 +1,4 @@
-import { checkVersion } from '@umijs/utils';
+import { checkVersion } from '@4399ywkf/utils';
 import { IApi } from '../../types';
 
 export default (api: IApi) => {

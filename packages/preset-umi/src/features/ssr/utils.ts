@@ -1,5 +1,5 @@
-import { fsExtra } from '@umijs/utils';
-import { forEach } from '@umijs/utils/compiled/lodash';
+import { fsExtra } from '@4399ywkf/utils';
+import { forEach } from '@4399ywkf/utils/compiled/lodash';
 import { existsSync, writeFileSync } from 'fs';
 import { basename, join } from 'path';
 import { IApi } from '../../types';

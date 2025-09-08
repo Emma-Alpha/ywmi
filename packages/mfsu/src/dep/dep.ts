@@ -1,4 +1,4 @@
-import { chalk, logger, pkgUp, winPath } from '@umijs/utils';
+import { chalk, logger, pkgUp, winPath } from '@4399ywkf/utils';
 import assert from 'assert';
 import { createHash } from 'crypto';
 import { readFileSync } from 'fs';

@@ -1,5 +1,5 @@
+import { logger, winPath } from '@4399ywkf/utils';
 import { IRoute } from '@umijs/core';
-import { logger, winPath } from '@umijs/utils';
 import fs from 'fs';
 import { basename, join, resolve } from 'path';
 import { watch } from '../../commands/dev/watch';

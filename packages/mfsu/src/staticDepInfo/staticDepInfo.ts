@@ -1,5 +1,5 @@
+import { fsExtra, lodash, logger } from '@4399ywkf/utils';
 import { ImportSpecifier } from '@umijs/bundler-utils/compiled/es-module-lexer';
-import { fsExtra, lodash, logger } from '@umijs/utils';
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 // @ts-ignore
 import why from 'is-equal/why';

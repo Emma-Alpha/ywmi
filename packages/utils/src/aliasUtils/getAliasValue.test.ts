@@ -6,7 +6,7 @@ test('get alias value: simple', () => {
     'react-dom': '/react-dom',
     preact: '/preact/',
     umi$: '/umi',
-    '@umijs/utils': '/utils',
+    '@4399ywkf/utils': '/utils',
     '@umijs/deps': '/deps/',
   } as const;
   const check = (v: string) => {
@@ -26,8 +26,8 @@ test('get alias value: simple', () => {
   check('umi').toEqual('/umi');
   check('umi/subpath').toEqual(undefined);
 
-  check('@umijs/utils').toEqual('/utils');
-  check('@umijs/utils/subpath').toEqual('/utils/subpath');
+  check('@4399ywkf/utils').toEqual('/utils');
+  check('@4399ywkf/utils/subpath').toEqual('/utils/subpath');
 
   check('@umijs/deps').toEqual('/deps/');
   check('@umijs/deps/subpath').toEqual('/deps/subpath');

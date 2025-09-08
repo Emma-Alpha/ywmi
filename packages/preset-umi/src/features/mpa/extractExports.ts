@@ -1,5 +1,5 @@
+import { winPath } from '@4399ywkf/utils';
 import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { winPath } from '@umijs/utils';
 import { dirname } from 'path';
 
 export async function extractExports(opts: {

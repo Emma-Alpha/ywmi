@@ -1,5 +1,5 @@
+import { fsExtra, importLazy, lodash, Mustache } from '@4399ywkf/utils';
 import { init } from '@umijs/bundler-utils/compiled/es-module-lexer';
-import { fsExtra, importLazy, lodash, Mustache } from '@umijs/utils';
 import assert from 'assert';
 import { existsSync, readFileSync, statSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';

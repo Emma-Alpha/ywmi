@@ -1,4 +1,4 @@
-import { lodash, winPath } from '@umijs/utils';
+import { lodash, winPath } from '@4399ywkf/utils';
 import { dirname, join } from 'path';
 import { IApi } from 'umi';
 import { isFlattedNodeModulesDir } from './utils/npmClient';

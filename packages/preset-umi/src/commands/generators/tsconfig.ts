@@ -1,5 +1,5 @@
+import { logger, semver } from '@4399ywkf/utils';
 import { GeneratorType } from '@umijs/core';
-import { logger, semver } from '@umijs/utils';
 import { existsSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { IApi } from '../../types';

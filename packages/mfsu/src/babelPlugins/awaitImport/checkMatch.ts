@@ -1,5 +1,5 @@
+import { aliasUtils, isLocalDev, winPath } from '@4399ywkf/utils';
 import * as Babel from '@umijs/bundler-utils/compiled/babel/core';
-import { aliasUtils, isLocalDev, winPath } from '@umijs/utils';
 import assert from 'assert';
 import { isAbsolute, join } from 'path';
 import type { IOpts } from './awaitImport';

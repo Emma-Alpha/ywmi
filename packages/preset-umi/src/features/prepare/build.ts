@@ -1,10 +1,10 @@
+import { logger } from '@4399ywkf/utils';
 import { esbuildWatchRebuildPlugin } from '@umijs/bundler-esbuild/dist/plugins/watchRebuild';
 import esbuild, {
   BuildContext,
   BuildOptions,
   BuildResult,
 } from '@umijs/bundler-utils/compiled/esbuild';
-import { logger } from '@umijs/utils';
 import { existsSync } from 'fs';
 import path from 'path';
 import { possibleExtUsingEmptyLoader } from '../../libs/folderCache/constant';

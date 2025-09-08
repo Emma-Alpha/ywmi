@@ -1,8 +1,8 @@
+import { lodash, logger, winPath } from '@4399ywkf/utils';
 import type {
   StatsChunk,
   StatsCompilation,
 } from '@umijs/bundler-webpack/compiled/webpack';
-import { lodash, logger, winPath } from '@umijs/utils';
 import { createHash } from 'crypto';
 import { readFileSync, writeFileSync } from 'fs';
 import { dirname, isAbsolute, join, relative } from 'path';

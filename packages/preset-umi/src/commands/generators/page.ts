@@ -1,5 +1,5 @@
+import { prompts, randomColor } from '@4399ywkf/utils';
 import { GeneratorType } from '@umijs/core';
-import { prompts, randomColor } from '@umijs/utils';
 import { join, parse } from 'path';
 import { TEMPLATES_DIR } from '../../constants';
 import { IApi } from '../../types';

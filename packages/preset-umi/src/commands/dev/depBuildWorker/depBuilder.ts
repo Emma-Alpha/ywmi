@@ -1,3 +1,4 @@
+import { fsExtra, lodash, logger } from '@4399ywkf/utils';
 import { build } from '@umijs/bundler-esbuild';
 import webpack from '@umijs/bundler-webpack/compiled/webpack';
 import { MF_DEP_PREFIX, MF_VA_PREFIX, REMOTE_FILE_FULL } from '@umijs/mfsu';
@@ -5,7 +6,6 @@ import { Dep } from '@umijs/mfsu/dist/dep/dep';
 import { getESBuildEntry } from '@umijs/mfsu/dist/depBuilder/getESBuildEntry';
 import { DepChunkIdPrefixPlugin } from '@umijs/mfsu/dist/webpackPlugins/depChunkIdPrefixPlugin';
 import { StripSourceMapUrlPlugin } from '@umijs/mfsu/dist/webpackPlugins/stripSourceMapUrlPlugin';
-import { fsExtra, lodash, logger } from '@umijs/utils';
 import { writeFileSync } from 'fs';
 import { join } from 'path';
 import { parentPort } from 'worker_threads';

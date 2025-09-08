@@ -1,5 +1,5 @@
+import { lodash } from '@4399ywkf/utils';
 import * as t from '@umijs/bundler-utils/compiled/babel/types';
-import { lodash } from '@umijs/utils';
 import { extname, parse, relative, sep } from 'path';
 
 export function defaultRenameVisitor() {

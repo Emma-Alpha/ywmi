@@ -1,9 +1,9 @@
+import { fsExtra, importLazy, logger, winPath } from '@4399ywkf/utils';
 import type {
   Compilation,
   Compiler,
 } from '@umijs/bundler-webpack/compiled/webpack';
 import { EnableBy } from '@umijs/core/dist/types';
-import { fsExtra, importLazy, logger, winPath } from '@umijs/utils';
 import assert from 'assert';
 import { existsSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';

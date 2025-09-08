@@ -1,4 +1,4 @@
-import { winPath } from '@umijs/utils';
+import { winPath } from '@4399ywkf/utils';
 import fs from 'fs';
 import path from 'path';
 import type { AtRule } from 'postcss';

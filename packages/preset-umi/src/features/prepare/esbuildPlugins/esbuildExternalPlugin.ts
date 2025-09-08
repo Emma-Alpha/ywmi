@@ -1,5 +1,5 @@
+import { aliasUtils, winPath } from '@4399ywkf/utils';
 import type { Plugin } from '@umijs/bundler-utils/compiled/esbuild';
-import { aliasUtils, winPath } from '@umijs/utils';
 import path from 'path';
 import { isRelativePath } from './isRelative';
 

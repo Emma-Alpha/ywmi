@@ -1,5 +1,5 @@
+import { getCorejsVersion, importLazy, winPath } from '@4399ywkf/utils';
 import { DEFAULT_BROWSER_TARGETS } from '@umijs/bundler-webpack/dist/constants';
-import { getCorejsVersion, importLazy, winPath } from '@umijs/utils';
 import { dirname, join } from 'path';
 import { IApi } from '../../types';
 

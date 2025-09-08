@@ -1,6 +1,6 @@
+import { chalk, fsExtra, logger, rimraf, semver } from '@4399ywkf/utils';
 import type { IServicePluginAPI } from '@umijs/core';
 import { getMarkup } from '@umijs/server';
-import { chalk, fsExtra, logger, rimraf, semver } from '@umijs/utils';
 import { writeFileSync } from 'fs';
 import { dirname, join, resolve } from 'path';
 import type { IApi, IOnGenerateFiles } from '../types';

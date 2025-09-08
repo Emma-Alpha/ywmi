@@ -1,5 +1,5 @@
+import { lodash, pkgUp, register, resolve, winPath } from '@4399ywkf/utils';
 import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { lodash, pkgUp, register, resolve, winPath } from '@umijs/utils';
 import assert from 'assert';
 import { existsSync } from 'fs';
 import { basename, dirname, extname, join, relative } from 'path';

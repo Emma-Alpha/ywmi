@@ -1,4 +1,4 @@
-import { importLazy, lodash, winPath } from '@umijs/utils';
+import { importLazy, lodash, winPath } from '@4399ywkf/utils';
 import { existsSync, readdirSync } from 'fs';
 import { basename, dirname, join, relative } from 'path';
 import { RUNTIME_TYPE_FILE_NAME } from 'umi';

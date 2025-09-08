@@ -1,6 +1,6 @@
+import { winPath } from '@4399ywkf/utils';
 import esbuild, { PartialMessage } from '@umijs/bundler-utils/compiled/esbuild';
 import less from '@umijs/bundler-utils/compiled/less';
-import { winPath } from '@umijs/utils';
 import { readFileSync } from 'fs';
 import { basename, dirname, extname, join, resolve } from 'path';
 import { ensureLastSlash, getClassNames, hashString } from './css-loader';

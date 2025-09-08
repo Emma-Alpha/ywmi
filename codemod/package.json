@@ -22,10 +22,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "@4399ywkf/utils": "workspace:*",
     "@umijs/ast": "workspace:*",
     "@umijs/babel-preset-umi": "workspace:*",
     "@umijs/bundler-utils": "workspace:*",
-    "@umijs/utils": "workspace:*",
     "fast-glob": "3.2.12",
     "kleur": "4.1.5"
   },

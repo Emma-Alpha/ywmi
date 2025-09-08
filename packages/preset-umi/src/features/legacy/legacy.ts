@@ -1,10 +1,10 @@
+import { chalk, crossSpawn, lodash, logger, resolve } from '@4399ywkf/utils';
 import {
   CSSMinifier,
   Env,
   JSMinifier,
   Transpiler,
 } from '@umijs/bundler-webpack/dist/types';
-import { chalk, crossSpawn, lodash, logger, resolve } from '@umijs/utils';
 import { join } from 'path';
 import type { IApi } from '../../types';
 

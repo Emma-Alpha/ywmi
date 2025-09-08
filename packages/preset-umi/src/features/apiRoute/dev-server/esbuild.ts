@@ -1,6 +1,6 @@
+import { logger } from '@4399ywkf/utils';
 import { esbuildWatchRebuildPlugin } from '@umijs/bundler-esbuild/dist/plugins/watchRebuild';
 import esbuild from '@umijs/bundler-utils/compiled/esbuild';
-import { logger } from '@umijs/utils';
 import { join, resolve } from 'path';
 import type { IApi, IRoute } from '../../../types';
 import { OUTPUT_PATH } from '../constants';

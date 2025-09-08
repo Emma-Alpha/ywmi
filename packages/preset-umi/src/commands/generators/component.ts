@@ -1,5 +1,5 @@
+import { lodash } from '@4399ywkf/utils';
 import { GeneratorType } from '@umijs/core';
-import { lodash } from '@umijs/utils';
 import { join, parse } from 'path';
 import { TEMPLATES_DIR } from '../../constants';
 import { IApi } from '../../types';

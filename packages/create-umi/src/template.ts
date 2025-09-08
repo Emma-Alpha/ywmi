@@ -1,5 +1,5 @@
-import { axios, chalk, fsExtra, logger } from '@umijs/utils';
-import { x as unpack } from '@umijs/utils/compiled/tar';
+import { axios, chalk, fsExtra, logger } from '@4399ywkf/utils';
+import { x as unpack } from '@4399ywkf/utils/compiled/tar';
 
 export enum ERegistry {
   npm = 'https://registry.npmjs.com/',

@@ -75,7 +75,7 @@ importers:
       '@umijs/server':
         specifier: workspace:*
         version: link:packages/server
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:packages/utils
       '@vercel/ncc':
@@ -201,7 +201,7 @@ importers:
       '@umijs/bundler-utils':
         specifier: workspace:*
         version: link:../packages/bundler-utils
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../packages/utils
       fast-glob:
@@ -213,7 +213,7 @@ importers:
 
   copilot:
     dependencies:
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../packages/utils
       zx:
@@ -1738,7 +1738,7 @@ importers:
       '@umijs/bundler-utils':
         specifier: workspace:*
         version: link:../bundler-utils
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
       core-js:
@@ -1750,7 +1750,7 @@ importers:
       '@umijs/bundler-utils':
         specifier: workspace:*
         version: link:../bundler-utils
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
       enhanced-resolve:
@@ -1772,7 +1772,7 @@ importers:
 
   packages/bundler-utils:
     dependencies:
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
       esbuild:
@@ -1914,7 +1914,7 @@ importers:
       '@umijs/bundler-utils':
         specifier: workspace:*
         version: link:../bundler-utils
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
       '@vitejs/plugin-react':
@@ -1984,7 +1984,7 @@ importers:
       '@umijs/react-refresh-webpack-plugin':
         specifier: 0.5.11
         version: 0.5.11(react-refresh@0.14.0)(webpack@5.88.2)
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
       cors:
@@ -2135,7 +2135,7 @@ importers:
       '@umijs/bundler-utils':
         specifier: workspace:*
         version: link:../bundler-utils
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
     devDependencies:
@@ -2151,7 +2151,7 @@ importers:
 
   packages/create-umi:
     dependencies:
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
 
@@ -2239,7 +2239,7 @@ importers:
       '@umijs/bundler-utils':
         specifier: workspace:*
         version: link:../bundler-utils
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
       enhanced-resolve:
@@ -2476,7 +2476,7 @@ importers:
       '@umijs/ui':
         specifier: workspace:*
         version: link:../../ui
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
       '@umijs/zod2ts':
@@ -2659,7 +2659,7 @@ importers:
       '@umijs/bundler-utils':
         specifier: workspace:*
         version: link:../bundler-utils
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
       babel-jest:
@@ -2714,7 +2714,7 @@ importers:
       '@umijs/test':
         specifier: workspace:*
         version: link:../testing
-      '@umijs/utils':
+      '@4399ywkf/utils':
         specifier: workspace:*
         version: link:../utils
       prettier-plugin-organize-imports:
@@ -2959,7 +2959,7 @@ packages:
       '@alita/types': 3.1.2
       '@umijs/bundler-utils': 4.1.2
       '@umijs/plugins': 4.1.2(@types/react-dom@18.0.10)(@types/react@18.0.26)(antd@4.23.6)(react-dom@17.0.2)(react@17.0.2)
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       ahooks: 3.7.4(react@17.0.2)
       antd-mobile-alita: 2.3.4(react-dom@17.0.2)(react@17.0.2)
       antd-mobile-icons: 0.2.2
@@ -18507,7 +18507,7 @@ packages:
       '@babel/runtime': 7.23.6
       '@bloomberg/record-tuple-polyfill': 0.0.4
       '@umijs/bundler-utils': 4.1.2
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       core-js: 3.34.0
     transitivePeerDependencies:
       - supports-color
@@ -18518,7 +18518,7 @@ packages:
     hasBin: true
     dependencies:
       '@umijs/bundler-utils': 4.1.2
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       enhanced-resolve: 5.9.3
       postcss: 8.4.35
       postcss-flexbugs-fixes: 5.0.2(postcss@8.4.35)
@@ -18556,7 +18556,7 @@ packages:
   /@umijs/bundler-utils@4.1.2:
     resolution: {integrity: sha512-bcN3VSgCPZjyLmQrRWPfPkuhVP0GCFyBLTxzr4vPHQTYx7FjHJcvpEbOsXoVNiBHowRA8J6PGCB/jxqRSO1yxw==}
     dependencies:
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       esbuild: 0.17.19
       regenerate: 1.4.2
       regenerate-unicode-properties: 10.1.1
@@ -18570,7 +18570,7 @@ packages:
     dependencies:
       '@svgr/core': 6.5.1
       '@umijs/bundler-utils': 4.1.2
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       '@vitejs/plugin-react': 4.0.0(vite@4.3.1)
       core-js: 3.34.0
       less: 4.1.3
@@ -18602,7 +18602,7 @@ packages:
       '@umijs/case-sensitive-paths-webpack-plugin': 1.0.1
       '@umijs/mfsu': 4.1.2
       '@umijs/react-refresh-webpack-plugin': 0.5.11(react-refresh@0.14.0)(webpack@5.88.2)
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       cors: 2.8.5
       css-loader: 6.7.1(webpack@5.88.2)
       es5-imcompatible-versions: 0.1.89
@@ -18639,7 +18639,7 @@ packages:
       '@umijs/case-sensitive-paths-webpack-plugin': 1.0.1
       '@umijs/mfsu': 4.1.2
       '@umijs/react-refresh-webpack-plugin': 0.5.11(react-refresh@0.14.0)(webpack@5.88.2)
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       cors: 2.8.5
       css-loader: 6.7.1(webpack@5.88.2)
       es5-imcompatible-versions: 0.1.89
@@ -18670,7 +18670,7 @@ packages:
     resolution: {integrity: sha512-OZlZKG+26coItwPJBtPmqB2zGSnVJqi/BVFm4MYB3fDtY5+/KmPCSXur/FJvpmRInoVAJkahbsycmMh+dUT0wQ==}
     dependencies:
       '@umijs/bundler-utils': 4.1.2
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -19019,7 +19019,7 @@ packages:
     dependencies:
       '@umijs/bundler-esbuild': 4.1.2
       '@umijs/bundler-utils': 4.1.2
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       enhanced-resolve: 5.9.3
       is-equal: 1.7.0
     transitivePeerDependencies:
@@ -19166,7 +19166,7 @@ packages:
       '@umijs/renderer-react': 4.1.2(react-dom@18.1.0)(react@18.1.0)
       '@umijs/server': 4.1.2
       '@umijs/ui': 3.0.1
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       '@umijs/zod2ts': 4.1.2
       babel-plugin-dynamic-import-node: 2.3.3
       click-to-react-component: 1.1.0(@types/react@18.3.3)(react-dom@18.1.0)(react@18.1.0)
@@ -19335,7 +19335,7 @@ packages:
       '@babel/plugin-transform-modules-commonjs': 7.23.3(@babel/core@7.23.0)
       '@jest/types': 27.5.1
       '@umijs/bundler-utils': 4.1.2
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       babel-jest: 29.7.0
       esbuild: 0.17.19
       identity-obj-proxy: 3.0.0
@@ -19370,7 +19370,7 @@ packages:
       react: 18.3.1
     dev: false
 
-  /@umijs/utils@4.1.2:
+  /@4399ywkf/utils@4.1.2:
     resolution: {integrity: sha512-YBzN7Zn3595W93t8XPh8IbKMInr6NecXPtHVD+L7fJFv5oCrzHxCkvSZBTmTXuFMyW+9rHT0TlsXM4gqQ1n18Q==}
     dependencies:
       chokidar: 3.5.3
@@ -25750,7 +25750,7 @@ packages:
       '@types/mdast': 3.0.12
       '@umijs/bundler-utils': 4.1.2
       '@umijs/core': 4.1.2
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       animated-scroll-to: 2.3.0
       classnames: 2.3.2
       codesandbox: 2.2.3
@@ -27798,7 +27798,7 @@ packages:
       '@umijs/bundler-utils': 4.1.2
       '@umijs/bundler-webpack': 4.1.2(typescript@4.8.4)
       '@umijs/core': 4.1.2
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       '@vercel/ncc': 0.33.3
       babel-plugin-dynamic-import-node: 2.3.3
       babel-plugin-module-resolver: 4.1.0
@@ -50282,7 +50282,7 @@ packages:
       '@umijs/renderer-react': 4.1.2(react-dom@18.3.1)(react@18.3.1)
       '@umijs/server': 4.1.2
       '@umijs/test': 4.1.2
-      '@umijs/utils': 4.1.2
+      '@4399ywkf/utils': 4.1.2
       prettier-plugin-organize-imports: 3.2.4(prettier@2.8.4)(typescript@4.9.5)
       prettier-plugin-packagejson: 2.4.3(prettier@2.8.4)
     transitivePeerDependencies:

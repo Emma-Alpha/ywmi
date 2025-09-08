@@ -1,5 +1,5 @@
+import { setNoDeprecation } from '@4399ywkf/utils';
 import { Config } from '@umijs/test';
-import { setNoDeprecation } from '@umijs/utils';
 import { existsSync, statSync } from 'fs';
 import { Service } from './service/service';
 

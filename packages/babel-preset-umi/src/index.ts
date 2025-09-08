@@ -1,4 +1,4 @@
-import { getCorejsVersion } from '@umijs/utils';
+import { getCorejsVersion } from '@4399ywkf/utils';
 import { dirname, join } from 'path';
 import autoCSSModules from './plugins/autoCSSModules';
 import dynamicImportNode from './plugins/dynamicImportNode';

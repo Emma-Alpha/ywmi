@@ -1,4 +1,4 @@
-import { semver, winPath } from '@umijs/utils';
+import { semver, winPath } from '@4399ywkf/utils';
 import { dirname } from 'path';
 import { pkgUpContainsName } from './pkgUpContainsName';
 

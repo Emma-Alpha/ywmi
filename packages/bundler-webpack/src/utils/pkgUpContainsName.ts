@@ -1,4 +1,4 @@
-import { pkgUp } from '@umijs/utils';
+import { pkgUp } from '@4399ywkf/utils';
 import path from 'path';
 export function pkgUpContainsName(file: string): string | null {
   let pkgPath = pkgUp.pkgUpSync({ cwd: file });

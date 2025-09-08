@@ -1,4 +1,4 @@
-import { chalk, winPath } from '@umijs/utils';
+import { chalk, winPath } from '@4399ywkf/utils';
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';

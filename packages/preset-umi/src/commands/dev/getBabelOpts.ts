@@ -1,4 +1,4 @@
-import { semver } from '@umijs/utils';
+import { semver } from '@4399ywkf/utils';
 import { IApi } from '../../types';
 
 export async function getBabelOpts(opts: { api: IApi }) {

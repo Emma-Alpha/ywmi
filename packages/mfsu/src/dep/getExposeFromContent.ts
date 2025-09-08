@@ -1,4 +1,4 @@
-import { isJavaScriptFile, winPath } from '@umijs/utils';
+import { isJavaScriptFile, winPath } from '@4399ywkf/utils';
 import assert from 'assert';
 import { basename } from 'path';
 import { Dep } from './dep';

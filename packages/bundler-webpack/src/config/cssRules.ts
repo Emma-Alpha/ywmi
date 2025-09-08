@@ -1,5 +1,5 @@
+import { winPath } from '@4399ywkf/utils';
 import Config from '@umijs/bundler-webpack/compiled/webpack-5-chain';
-import { winPath } from '@umijs/utils';
 import type { LoaderContext } from 'mini-css-extract-plugin/types/utils';
 import { Env, IConfig } from '../types';
 

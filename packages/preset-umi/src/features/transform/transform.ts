@@ -1,4 +1,4 @@
-import { chalk, importLazy } from '@umijs/utils';
+import { chalk, importLazy } from '@4399ywkf/utils';
 import { IApi } from '../../types';
 import babelPlugin from './babelPlugin';
 import CodeFrameError from './CodeFrameError';

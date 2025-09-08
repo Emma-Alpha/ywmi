@@ -1,5 +1,5 @@
+import { chalk } from '@4399ywkf/utils';
 import { parseModule } from '@umijs/bundler-utils';
-import { chalk } from '@umijs/utils';
 import { readFileSync } from 'fs';
 
 export async function getModuleExports(opts: {

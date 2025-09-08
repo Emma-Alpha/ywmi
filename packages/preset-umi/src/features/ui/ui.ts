@@ -1,4 +1,4 @@
-import { isLocalDev } from '@umijs/utils';
+import { isLocalDev } from '@4399ywkf/utils';
 import fs from 'fs';
 import path from 'path';
 import { IApi, IUIModule } from '../../types';

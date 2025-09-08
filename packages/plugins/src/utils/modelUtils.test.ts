@@ -1,4 +1,4 @@
-import { chalk } from '@umijs/utils';
+import { chalk } from '@4399ywkf/utils';
 import { getNamespace, Model, ModelUtils, transformSync } from './modelUtils';
 
 test('getNamespace', () => {

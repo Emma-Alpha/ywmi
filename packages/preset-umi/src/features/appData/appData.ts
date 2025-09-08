@@ -1,4 +1,4 @@
-import { getNpmClient, importLazy, winPath } from '@umijs/utils';
+import { getNpmClient, importLazy, winPath } from '@4399ywkf/utils';
 import { existsSync, readFileSync } from 'fs';
 import { join, resolve } from 'path';
 import { parse } from '../../../compiled/ini';

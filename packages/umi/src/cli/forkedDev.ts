@@ -4,7 +4,7 @@ import {
   setNoDeprecation,
   setNodeTitle,
   yParser,
-} from '@umijs/utils';
+} from '@4399ywkf/utils';
 import { DEV_COMMAND, FRAMEWORK_NAME } from '../constants';
 import { Service } from '../service/service';
 setNodeTitle(`${FRAMEWORK_NAME}-dev`);
