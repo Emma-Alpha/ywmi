@@ -116,7 +116,7 @@
     "uglify-js": "^3.17.4",
     "umi": "workspace:*",
     "umi-scripts": "workspace:*",
-    "zx": "^7.1.1"
+    "zx": "^8.8.5"
   },
   "packageManager": "pnpm@8.11.0",
   "engines": {
