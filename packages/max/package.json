@@ -37,7 +37,7 @@
     "@umijs/lint": "workspace:*",
     "@umijs/plugins": "workspace:*",
     "antd": "^4.20.6",
-    "eslint": "8.35.0",
+    "eslint": "9.26.0",
     "stylelint": "14.8.2",
     "umi": "workspace:*"
   },
